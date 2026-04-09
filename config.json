@@ -1,0 +1,27 @@
+{
+  "channels": [
+    {
+      "name": "삼프로TV",
+      "channel_id": "UChlv4GSd7OQl3js-jkLOnFA",
+      "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChlv4GSd7OQl3js-jkLOnFA"
+    },
+    {
+      "name": "증시각도",
+      "channel_id": "UCdOjVxkj5JA0iDu3_xcsTyQ",
+      "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdOjVxkj5JA0iDu3_xcsTyQ"
+    }
+  ],
+  "filter": {
+    "type": "시황 분석",
+    "keywords": ["시황", "시장분석", "장마감", "마감시황", "증시전망", "장전시황", "미국시황", "주간전망", "데일리", "마켓", "인사이트", "여의도"],
+    "exclude_keywords": ["크립토", "비트코인", "이더리움", "코인", "NFT"]
+  },
+  "slack": {
+    "channel_name": "#증시정보",
+    "channel_id": "C0ASLTU8GQG"
+  },
+  "notion": {
+    "database_id": "ace11b03-e8ab-4bc6-95a7-29f2e6709673",
+    "data_source_url": "collection://59ad4fd8-441b-4091-a5bb-ab65715855d0"
+  }
+}
